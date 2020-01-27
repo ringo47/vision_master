@@ -1,0 +1,8 @@
+prefix=/home/ringo/catkin_ws/devel
+
+Name: lane_laser
+Description: Description of lane_laser
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ringo/catkin_ws/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/ringo/catkin_ws/install
+
+Name: ira_laser_tools
+Description: Description of ira_laser_tools
+Version: 1.0.0
+Cflags: -I/home/ringo/catkin_ws/install/include
+Libs: -L/home/ringo/catkin_ws/install/lib 
+Requires: 

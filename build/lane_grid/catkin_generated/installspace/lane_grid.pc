@@ -1,0 +1,8 @@
+prefix=/home/ringo/catkin_ws/install
+
+Name: lane_grid
+Description: Description of lane_grid
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ringo/catkin_ws/install/lib 
+Requires: 

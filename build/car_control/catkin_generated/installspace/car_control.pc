@@ -1,0 +1,8 @@
+prefix=/home/ringo/catkin_ws/install
+
+Name: car_control
+Description: Description of car_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ringo/catkin_ws/install/lib 
+Requires: 

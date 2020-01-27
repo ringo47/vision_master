@@ -1,0 +1,2 @@
+beginner_tutorials:car_control:ira_laser_tools:lane_grid:lane_laser:lane_laser_scan:rplidar_ros
+-DCATKIN_DEVEL_PREFIX=/home/ringo/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ringo/catkin_ws/install -G Unix Makefiles
