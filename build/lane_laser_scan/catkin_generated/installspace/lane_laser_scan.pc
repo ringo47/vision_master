@@ -1,8 +1,8 @@
-prefix=/home/ringo/catkin_ws/install
+prefix=/home/ringo/vision_master/install
 
 Name: lane_laser_scan
 Description: Description of lane_laser_scan
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/ringo/catkin_ws/install/lib 
+Libs: -L/home/ringo/vision_master/install/lib 
 Requires: 
