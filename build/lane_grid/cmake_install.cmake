@@ -1,8 +1,8 @@
-# Install script for directory: /home/ringo/catkin_ws/src/lane_grid
+# Install script for directory: /home/ringo/vision_master/src/lane_grid
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ringo/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ringo/vision_master/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ringo/catkin_ws/build/lane_grid/catkin_generated/installspace/lane_grid.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ringo/vision_master/build/lane_grid/catkin_generated/installspace/lane_grid.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lane_grid/cmake" TYPE FILE FILES
-    "/home/ringo/catkin_ws/build/lane_grid/catkin_generated/installspace/lane_gridConfig.cmake"
-    "/home/ringo/catkin_ws/build/lane_grid/catkin_generated/installspace/lane_gridConfig-version.cmake"
+    "/home/ringo/vision_master/build/lane_grid/catkin_generated/installspace/lane_gridConfig.cmake"
+    "/home/ringo/vision_master/build/lane_grid/catkin_generated/installspace/lane_gridConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lane_grid" TYPE FILE FILES "/home/ringo/catkin_ws/src/lane_grid/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lane_grid" TYPE FILE FILES "/home/ringo/vision_master/src/lane_grid/package.xml")
 endif()
 

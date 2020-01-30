@@ -647,23 +647,11 @@ actionlib_DIR:PATH=/opt/ros/melodic/share/actionlib/cmake
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/opt/ros/melodic/share/actionlib_msgs/cmake
 
-//Value Computed by CMake
-beginner_tutorials_BINARY_DIR:STATIC=/home/ringo/catkin_ws/build/beginner_tutorials
-
-//Value Computed by CMake
-beginner_tutorials_SOURCE_DIR:STATIC=/home/ringo/catkin_ws/src/beginner_tutorials
-
 //The directory containing a CMake configuration file for bond.
 bond_DIR:PATH=/opt/ros/melodic/share/bond/cmake
 
 //The directory containing a CMake configuration file for bondcpp.
 bondcpp_DIR:PATH=/opt/ros/melodic/share/bondcpp/cmake
-
-//Value Computed by CMake
-car_control_BINARY_DIR:STATIC=/home/ringo/catkin_ws/build/car_control
-
-//Value Computed by CMake
-car_control_SOURCE_DIR:STATIC=/home/ringo/catkin_ws/src/car_control
 
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/melodic/share/catkin/cmake
@@ -673,9 +661,6 @@ class_loader_DIR:PATH=/opt/ros/melodic/share/class_loader/cmake
 
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
-
-//The directory containing a CMake configuration file for dataspeed_ulc_msgs.
-dataspeed_ulc_msgs_DIR:PATH=/opt/ros/melodic/share/dataspeed_ulc_msgs/cmake
 
 //The directory containing a CMake configuration file for dynamic_reconfigure.
 dynamic_reconfigure_DIR:PATH=/opt/ros/melodic/share/dynamic_reconfigure/cmake
@@ -761,12 +746,6 @@ lane_grid_BINARY_DIR:STATIC=/home/ringo/vision_master/build/lane_grid
 
 //Value Computed by CMake
 lane_grid_SOURCE_DIR:STATIC=/home/ringo/vision_master/src/lane_grid
-
-//Value Computed by CMake
-lane_laser_BINARY_DIR:STATIC=/home/ringo/catkin_ws/build/lane_laser
-
-//Value Computed by CMake
-lane_laser_SOURCE_DIR:STATIC=/home/ringo/catkin_ws/src/lane_laser
 
 //Value Computed by CMake
 lane_laser_scan_BINARY_DIR:STATIC=/home/ringo/vision_master/build/lane_laser_scan
@@ -940,7 +919,7 @@ Boost_THREAD_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 Boost_THREAD_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //catkin environment
 CATKIN_ENV:INTERNAL=/home/ringo/vision_master/build/catkin_generated/env_cached.sh
-CATKIN_TEST_RESULTS_DIR:INTERNAL=/home/ringo/catkin_ws/build/test_results
+CATKIN_TEST_RESULTS_DIR:INTERNAL=/home/ringo/vision_master/build/test_results
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
@@ -1023,7 +1002,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/ringo/catkin_ws/src
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/ringo/vision_master/src
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

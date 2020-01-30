@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ringo/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/ringo/vision_master/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ringo/catkin_ws/build
+CMAKE_BINARY_DIR = /home/ringo/vision_master/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ lane_grid/CMakeFiles/_catkin_empty_exported_target.dir/build: _catkin_empty_expo
 .PHONY : lane_grid/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 lane_grid/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /home/ringo/catkin_ws/build/lane_grid && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /home/ringo/vision_master/build/lane_grid && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : lane_grid/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 lane_grid/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/ringo/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ringo/catkin_ws/src /home/ringo/catkin_ws/src/lane_grid /home/ringo/catkin_ws/build /home/ringo/catkin_ws/build/lane_grid /home/ringo/catkin_ws/build/lane_grid/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ringo/vision_master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ringo/vision_master/src /home/ringo/vision_master/src/lane_grid /home/ringo/vision_master/build /home/ringo/vision_master/build/lane_grid /home/ringo/vision_master/build/lane_grid/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lane_grid/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

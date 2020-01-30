@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ringo/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/ringo/vision_master/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ringo/catkin_ws/build
+CMAKE_BINARY_DIR = /home/ringo/vision_master/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ringo/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ringo/catkin_ws/build/CMakeFiles /home/ringo/catkin_ws/build/rplidar_ros/CMakeFiles/progress.marks
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ringo/catkin_ws/build/CMakeFiles 0
+	cd /home/ringo/vision_master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ringo/vision_master/build/CMakeFiles /home/ringo/vision_master/build/rplidar_ros/CMakeFiles/progress.marks
+	cd /home/ringo/vision_master/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ringo/vision_master/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/clean
+	cd /home/ringo/vision_master/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/preinstall
+	cd /home/ringo/vision_master/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/preinstall
+	cd /home/ringo/vision_master/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ringo/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ringo/vision_master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 rplidar_ros/CMakeFiles/rplidarNodeClient.dir/rule:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/rplidarNodeClient.dir/rule
+	cd /home/ringo/vision_master/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/rplidarNodeClient.dir/rule
 .PHONY : rplidar_ros/CMakeFiles/rplidarNodeClient.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ rplidarNodeClient: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/rule
 
 # fast build rule for target.
 rplidarNodeClient/fast:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build
 .PHONY : rplidarNodeClient/fast
 
 # Convenience name for target.
 rplidar_ros/CMakeFiles/rplidarNode.dir/rule:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/rplidarNode.dir/rule
+	cd /home/ringo/vision_master/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/rplidarNode.dir/rule
 .PHONY : rplidar_ros/CMakeFiles/rplidarNode.dir/rule
 
 # Convenience name for target.
@@ -194,7 +194,7 @@ rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/rule
 
 # fast build rule for target.
 rplidarNode/fast:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/build
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/build
 .PHONY : rplidarNode/fast
 
 sdk/src/arch/linux/net_serial.o: sdk/src/arch/linux/net_serial.cpp.o
@@ -203,7 +203,7 @@ sdk/src/arch/linux/net_serial.o: sdk/src/arch/linux/net_serial.cpp.o
 
 # target to build an object file
 sdk/src/arch/linux/net_serial.cpp.o:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o
 .PHONY : sdk/src/arch/linux/net_serial.cpp.o
 
 sdk/src/arch/linux/net_serial.i: sdk/src/arch/linux/net_serial.cpp.i
@@ -212,7 +212,7 @@ sdk/src/arch/linux/net_serial.i: sdk/src/arch/linux/net_serial.cpp.i
 
 # target to preprocess a source file
 sdk/src/arch/linux/net_serial.cpp.i:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.i
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.i
 .PHONY : sdk/src/arch/linux/net_serial.cpp.i
 
 sdk/src/arch/linux/net_serial.s: sdk/src/arch/linux/net_serial.cpp.s
@@ -221,7 +221,7 @@ sdk/src/arch/linux/net_serial.s: sdk/src/arch/linux/net_serial.cpp.s
 
 # target to generate assembly for a file
 sdk/src/arch/linux/net_serial.cpp.s:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.s
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.s
 .PHONY : sdk/src/arch/linux/net_serial.cpp.s
 
 sdk/src/arch/linux/net_socket.o: sdk/src/arch/linux/net_socket.cpp.o
@@ -230,7 +230,7 @@ sdk/src/arch/linux/net_socket.o: sdk/src/arch/linux/net_socket.cpp.o
 
 # target to build an object file
 sdk/src/arch/linux/net_socket.cpp.o:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o
 .PHONY : sdk/src/arch/linux/net_socket.cpp.o
 
 sdk/src/arch/linux/net_socket.i: sdk/src/arch/linux/net_socket.cpp.i
@@ -239,7 +239,7 @@ sdk/src/arch/linux/net_socket.i: sdk/src/arch/linux/net_socket.cpp.i
 
 # target to preprocess a source file
 sdk/src/arch/linux/net_socket.cpp.i:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.i
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.i
 .PHONY : sdk/src/arch/linux/net_socket.cpp.i
 
 sdk/src/arch/linux/net_socket.s: sdk/src/arch/linux/net_socket.cpp.s
@@ -248,7 +248,7 @@ sdk/src/arch/linux/net_socket.s: sdk/src/arch/linux/net_socket.cpp.s
 
 # target to generate assembly for a file
 sdk/src/arch/linux/net_socket.cpp.s:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.s
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.s
 .PHONY : sdk/src/arch/linux/net_socket.cpp.s
 
 sdk/src/arch/linux/timer.o: sdk/src/arch/linux/timer.cpp.o
@@ -257,7 +257,7 @@ sdk/src/arch/linux/timer.o: sdk/src/arch/linux/timer.cpp.o
 
 # target to build an object file
 sdk/src/arch/linux/timer.cpp.o:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o
 .PHONY : sdk/src/arch/linux/timer.cpp.o
 
 sdk/src/arch/linux/timer.i: sdk/src/arch/linux/timer.cpp.i
@@ -266,7 +266,7 @@ sdk/src/arch/linux/timer.i: sdk/src/arch/linux/timer.cpp.i
 
 # target to preprocess a source file
 sdk/src/arch/linux/timer.cpp.i:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.i
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.i
 .PHONY : sdk/src/arch/linux/timer.cpp.i
 
 sdk/src/arch/linux/timer.s: sdk/src/arch/linux/timer.cpp.s
@@ -275,7 +275,7 @@ sdk/src/arch/linux/timer.s: sdk/src/arch/linux/timer.cpp.s
 
 # target to generate assembly for a file
 sdk/src/arch/linux/timer.cpp.s:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.s
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.s
 .PHONY : sdk/src/arch/linux/timer.cpp.s
 
 sdk/src/hal/thread.o: sdk/src/hal/thread.cpp.o
@@ -284,7 +284,7 @@ sdk/src/hal/thread.o: sdk/src/hal/thread.cpp.o
 
 # target to build an object file
 sdk/src/hal/thread.cpp.o:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o
 .PHONY : sdk/src/hal/thread.cpp.o
 
 sdk/src/hal/thread.i: sdk/src/hal/thread.cpp.i
@@ -293,7 +293,7 @@ sdk/src/hal/thread.i: sdk/src/hal/thread.cpp.i
 
 # target to preprocess a source file
 sdk/src/hal/thread.cpp.i:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.i
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.i
 .PHONY : sdk/src/hal/thread.cpp.i
 
 sdk/src/hal/thread.s: sdk/src/hal/thread.cpp.s
@@ -302,7 +302,7 @@ sdk/src/hal/thread.s: sdk/src/hal/thread.cpp.s
 
 # target to generate assembly for a file
 sdk/src/hal/thread.cpp.s:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.s
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.s
 .PHONY : sdk/src/hal/thread.cpp.s
 
 sdk/src/rplidar_driver.o: sdk/src/rplidar_driver.cpp.o
@@ -311,7 +311,7 @@ sdk/src/rplidar_driver.o: sdk/src/rplidar_driver.cpp.o
 
 # target to build an object file
 sdk/src/rplidar_driver.cpp.o:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o
 .PHONY : sdk/src/rplidar_driver.cpp.o
 
 sdk/src/rplidar_driver.i: sdk/src/rplidar_driver.cpp.i
@@ -320,7 +320,7 @@ sdk/src/rplidar_driver.i: sdk/src/rplidar_driver.cpp.i
 
 # target to preprocess a source file
 sdk/src/rplidar_driver.cpp.i:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.i
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.i
 .PHONY : sdk/src/rplidar_driver.cpp.i
 
 sdk/src/rplidar_driver.s: sdk/src/rplidar_driver.cpp.s
@@ -329,7 +329,7 @@ sdk/src/rplidar_driver.s: sdk/src/rplidar_driver.cpp.s
 
 # target to generate assembly for a file
 sdk/src/rplidar_driver.cpp.s:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.s
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.s
 .PHONY : sdk/src/rplidar_driver.cpp.s
 
 src/client.o: src/client.cpp.o
@@ -338,7 +338,7 @@ src/client.o: src/client.cpp.o
 
 # target to build an object file
 src/client.cpp.o:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o
 .PHONY : src/client.cpp.o
 
 src/client.i: src/client.cpp.i
@@ -347,7 +347,7 @@ src/client.i: src/client.cpp.i
 
 # target to preprocess a source file
 src/client.cpp.i:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.i
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.i
 .PHONY : src/client.cpp.i
 
 src/client.s: src/client.cpp.s
@@ -356,7 +356,7 @@ src/client.s: src/client.cpp.s
 
 # target to generate assembly for a file
 src/client.cpp.s:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.s
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.s
 .PHONY : src/client.cpp.s
 
 src/node.o: src/node.cpp.o
@@ -365,7 +365,7 @@ src/node.o: src/node.cpp.o
 
 # target to build an object file
 src/node.cpp.o:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.o
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.o
 .PHONY : src/node.cpp.o
 
 src/node.i: src/node.cpp.i
@@ -374,7 +374,7 @@ src/node.i: src/node.cpp.i
 
 # target to preprocess a source file
 src/node.cpp.i:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.i
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.i
 .PHONY : src/node.cpp.i
 
 src/node.s: src/node.cpp.s
@@ -383,7 +383,7 @@ src/node.s: src/node.cpp.s
 
 # target to generate assembly for a file
 src/node.cpp.s:
-	cd /home/ringo/catkin_ws/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.s
+	cd /home/ringo/vision_master/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.s
 .PHONY : src/node.cpp.s
 
 # Help Target
@@ -433,6 +433,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ringo/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ringo/vision_master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ringo/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/ringo/vision_master/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ringo/catkin_ws/build
+CMAKE_BINARY_DIR = /home/ringo/vision_master/build
 
 # Include any dependencies generated for this target.
 include rplidar_ros/CMakeFiles/rplidarNodeClient.dir/depend.make
@@ -58,17 +58,17 @@ include rplidar_ros/CMakeFiles/rplidarNodeClient.dir/progress.make
 include rplidar_ros/CMakeFiles/rplidarNodeClient.dir/flags.make
 
 rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/flags.make
-rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o: /home/ringo/catkin_ws/src/rplidar_ros/src/client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ringo/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o"
-	cd /home/ringo/catkin_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o -c /home/ringo/catkin_ws/src/rplidar_ros/src/client.cpp
+rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o: /home/ringo/vision_master/src/rplidar_ros/src/client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ringo/vision_master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o"
+	cd /home/ringo/vision_master/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o -c /home/ringo/vision_master/src/rplidar_ros/src/client.cpp
 
 rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNodeClient.dir/src/client.cpp.i"
-	cd /home/ringo/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ringo/catkin_ws/src/rplidar_ros/src/client.cpp > CMakeFiles/rplidarNodeClient.dir/src/client.cpp.i
+	cd /home/ringo/vision_master/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ringo/vision_master/src/rplidar_ros/src/client.cpp > CMakeFiles/rplidarNodeClient.dir/src/client.cpp.i
 
 rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNodeClient.dir/src/client.cpp.s"
-	cd /home/ringo/catkin_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ringo/catkin_ws/src/rplidar_ros/src/client.cpp -o CMakeFiles/rplidarNodeClient.dir/src/client.cpp.s
+	cd /home/ringo/vision_master/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ringo/vision_master/src/rplidar_ros/src/client.cpp -o CMakeFiles/rplidarNodeClient.dir/src/client.cpp.s
 
 rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o.requires:
 
@@ -88,33 +88,33 @@ rplidarNodeClient_OBJECTS = \
 # External object files for target rplidarNodeClient
 rplidarNodeClient_EXTERNAL_OBJECTS =
 
-/home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o
-/home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make
-/home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/libroscpp.so
-/home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/librosconsole.so
-/home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/librostime.so
-/home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/libcpp_common.so
-/home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ringo/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient"
-	cd /home/ringo/catkin_ws/build/rplidar_ros && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rplidarNodeClient.dir/link.txt --verbose=$(VERBOSE)
+/home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o
+/home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make
+/home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/libroscpp.so
+/home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/librosconsole.so
+/home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/librostime.so
+/home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/libcpp_common.so
+/home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ringo/vision_master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient"
+	cd /home/ringo/vision_master/build/rplidar_ros && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rplidarNodeClient.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build: /home/ringo/catkin_ws/devel/lib/rplidar_ros/rplidarNodeClient
+rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build: /home/ringo/vision_master/devel/lib/rplidar_ros/rplidarNodeClient
 
 .PHONY : rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build
 
@@ -123,10 +123,10 @@ rplidar_ros/CMakeFiles/rplidarNodeClient.dir/requires: rplidar_ros/CMakeFiles/rp
 .PHONY : rplidar_ros/CMakeFiles/rplidarNodeClient.dir/requires
 
 rplidar_ros/CMakeFiles/rplidarNodeClient.dir/clean:
-	cd /home/ringo/catkin_ws/build/rplidar_ros && $(CMAKE_COMMAND) -P CMakeFiles/rplidarNodeClient.dir/cmake_clean.cmake
+	cd /home/ringo/vision_master/build/rplidar_ros && $(CMAKE_COMMAND) -P CMakeFiles/rplidarNodeClient.dir/cmake_clean.cmake
 .PHONY : rplidar_ros/CMakeFiles/rplidarNodeClient.dir/clean
 
 rplidar_ros/CMakeFiles/rplidarNodeClient.dir/depend:
-	cd /home/ringo/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ringo/catkin_ws/src /home/ringo/catkin_ws/src/rplidar_ros /home/ringo/catkin_ws/build /home/ringo/catkin_ws/build/rplidar_ros /home/ringo/catkin_ws/build/rplidar_ros/CMakeFiles/rplidarNodeClient.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ringo/vision_master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ringo/vision_master/src /home/ringo/vision_master/src/rplidar_ros /home/ringo/vision_master/build /home/ringo/vision_master/build/rplidar_ros /home/ringo/vision_master/build/rplidar_ros/CMakeFiles/rplidarNodeClient.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rplidar_ros/CMakeFiles/rplidarNodeClient.dir/depend
 

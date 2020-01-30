@@ -1,8 +1,8 @@
-# Install script for directory: /home/ringo/catkin_ws/src/lane_laser_scan
+# Install script for directory: /home/ringo/vision_master/src/lane_laser_scan
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ringo/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ringo/vision_master/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ringo/catkin_ws/build/lane_laser_scan/catkin_generated/installspace/lane_laser_scan.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ringo/vision_master/build/lane_laser_scan/catkin_generated/installspace/lane_laser_scan.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lane_laser_scan/cmake" TYPE FILE FILES
-    "/home/ringo/catkin_ws/build/lane_laser_scan/catkin_generated/installspace/lane_laser_scanConfig.cmake"
-    "/home/ringo/catkin_ws/build/lane_laser_scan/catkin_generated/installspace/lane_laser_scanConfig-version.cmake"
+    "/home/ringo/vision_master/build/lane_laser_scan/catkin_generated/installspace/lane_laser_scanConfig.cmake"
+    "/home/ringo/vision_master/build/lane_laser_scan/catkin_generated/installspace/lane_laser_scanConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lane_laser_scan" TYPE FILE FILES "/home/ringo/catkin_ws/src/lane_laser_scan/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lane_laser_scan" TYPE FILE FILES "/home/ringo/vision_master/src/lane_laser_scan/package.xml")
 endif()
 

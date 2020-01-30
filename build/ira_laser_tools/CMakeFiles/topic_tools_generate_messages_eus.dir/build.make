@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ringo/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/ringo/vision_master/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ringo/catkin_ws/build
+CMAKE_BINARY_DIR = /home/ringo/vision_master/build
 
 # Utility rule file for topic_tools_generate_messages_eus.
 
@@ -63,10 +63,10 @@ ira_laser_tools/CMakeFiles/topic_tools_generate_messages_eus.dir/build: topic_to
 .PHONY : ira_laser_tools/CMakeFiles/topic_tools_generate_messages_eus.dir/build
 
 ira_laser_tools/CMakeFiles/topic_tools_generate_messages_eus.dir/clean:
-	cd /home/ringo/catkin_ws/build/ira_laser_tools && $(CMAKE_COMMAND) -P CMakeFiles/topic_tools_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/ringo/vision_master/build/ira_laser_tools && $(CMAKE_COMMAND) -P CMakeFiles/topic_tools_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : ira_laser_tools/CMakeFiles/topic_tools_generate_messages_eus.dir/clean
 
 ira_laser_tools/CMakeFiles/topic_tools_generate_messages_eus.dir/depend:
-	cd /home/ringo/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ringo/catkin_ws/src /home/ringo/catkin_ws/src/ira_laser_tools /home/ringo/catkin_ws/build /home/ringo/catkin_ws/build/ira_laser_tools /home/ringo/catkin_ws/build/ira_laser_tools/CMakeFiles/topic_tools_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ringo/vision_master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ringo/vision_master/src /home/ringo/vision_master/src/ira_laser_tools /home/ringo/vision_master/build /home/ringo/vision_master/build/ira_laser_tools /home/ringo/vision_master/build/ira_laser_tools/CMakeFiles/topic_tools_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ira_laser_tools/CMakeFiles/topic_tools_generate_messages_eus.dir/depend
 

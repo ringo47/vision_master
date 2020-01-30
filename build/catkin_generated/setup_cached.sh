@@ -8,4 +8,3 @@
 
 # modified environment variables
 export PWD="/home/ringo/vision_master/build"
-export ROS_PACKAGE_PATH="/home/ringo/catkin_ws/src:/home/ringo/vision_master/src:/home/ringo/catkin_ws/src:/opt/ros/melodic/share"
