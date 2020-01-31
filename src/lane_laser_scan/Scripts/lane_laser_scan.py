@@ -83,8 +83,8 @@ def talker():
     pub=rospy.Publisher('laser_scan_test', LaserScan,queue_size=10)
     rospy.init_node('lane_laser_scan', anonymous=True)
     rate = rospy.Rate(10)
-    cap = cv2.VideoCapture(os.path.dirname(__file__)+"/test_480.mp4")
-    #cap = cv2.VideoCapture(1)
+    #cap = cv2.VideoCapture(os.path.dirname(__file__)+"/test_480.mp4")
+    cap = cv2.VideoCapture(1)
     #cap.set(cv2.cv.CV_CAP_PROP_FPS, 60)
     ret,frame=cap.read()
     while ret:
