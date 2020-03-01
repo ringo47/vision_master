@@ -4,7 +4,7 @@ ROS workspace for the Auto-Nav challenge. Completed lane detection pipeline with
 
 ### Lane Detection Pipeline
 /lane_laser_scan/pipeline_test.py serves as the integration test for all the operations. Just change the source file image.
-![annotated](media/lane.jpg)
+![annotated](media/lanes.jpg)
 #### Outline
 Forked from [George Sung](https://github.com/georgesung/advanced_lane_detection)
 * Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
