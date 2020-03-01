@@ -7,7 +7,7 @@ ROS workspace for the Auto-Nav challenge. Completed lane detection pipeline with
 ![annotated](media/lanes.jpg)
 #### Outline
 Forked from [George Sung](https://github.com/georgesung/advanced_lane_detection)
-Get distortion matrix > Correct distortion > Binary Threshold > Perspective transform > Detect lane and curve fit > Draw area back on origianl
+Get distortion matrix > Correct distortion > Binary Threshold > Perspective transform > Detect lane and curve fit > Draw area back on original raw image.
 
 ### Converting lanes to laser scan
 Change the index of the usb camera in /lane_laser_scan/lane_laser_scan.py. <br>
