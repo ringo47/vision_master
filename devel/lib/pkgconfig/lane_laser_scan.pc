@@ -1,8 +1,0 @@
-prefix=/home/ringo/vision_master/devel
-
-Name: lane_laser_scan
-Description: Description of lane_laser_scan
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/ringo/vision_master/devel/lib 
-Requires: 

@@ -1,8 +1,0 @@
-prefix=/home/ringo/vision_master/install
-
-Name: rplidar_ros
-Description: Description of rplidar_ros
-Version: 1.10.0
-Cflags: 
-Libs: -L/home/ringo/vision_master/install/lib 
-Requires: 

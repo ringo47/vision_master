@@ -1,8 +1,0 @@
-prefix=/home/ringo/vision_master/devel
-
-Name: ira_laser_tools
-Description: Description of ira_laser_tools
-Version: 1.0.0
-Cflags: -I/home/ringo/vision_master/devel/include
-Libs: -L/home/ringo/vision_master/devel/lib 
-Requires: 

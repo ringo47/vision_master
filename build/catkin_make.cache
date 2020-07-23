@@ -1,2 +1,0 @@
-ira_laser_tools:lane_grid:lane_laser_scan:rplidar_ros
--DCATKIN_DEVEL_PREFIX=/home/ringo/vision_master/devel -DCMAKE_INSTALL_PREFIX=/home/ringo/vision_master/install -G Unix Makefiles
